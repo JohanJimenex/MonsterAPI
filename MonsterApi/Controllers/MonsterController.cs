@@ -31,7 +31,7 @@ public class MonsterController : ControllerBase {
     }
 
      [HttpGet("prueba2")]
-    public string ObtenerValor()
+    public string ObtenerValor2()
     {
         var valor2 = _configuration["miotrokey"];
         return valor2;
